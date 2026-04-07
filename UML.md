@@ -29,10 +29,6 @@ class Equipamento {
 
 class sensor{
     -double valorAtual
-    +string tagSensor
-    +string descricaoSensor
-    +bool ativoInicial
-    +double valorInicial
     +void atualizarLeitura()
     +double getValorAtual()
     +void exibirResumo()
